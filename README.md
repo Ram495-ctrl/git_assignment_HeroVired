@@ -1,4 +1,5 @@
 <h1> Git Assignment - Hero Vired <h1>
+<h1> Solution for question 1: <h1>
 This project demonstrates the process of setting up a Git repository, creating branches, committing changes, and merging branches. The example used is a simple calculator application called CalculatorPlus.
 
 <h1> Table of Contents <h1>
