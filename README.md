@@ -40,9 +40,14 @@ git checkout main
 git merge dev
 git push origin main
 <h1> Feature Implementation <h1>
+Create a Feature Branch:
+  
 git checkout -b feature/sqrt
+  
 Add Square Root Functionality:
+
 nano CalculatorPlus.py
+
 <h1> Commit Changes in Feature Branch: <h1>
 git commit -m "Adding sqrt code to the calc plus app in the feature branch"
 <h1> Switch to dev Branch and Fix Bugs: <h1>
