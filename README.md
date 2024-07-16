@@ -4,13 +4,13 @@ This project demonstrates the process of setting up a Git repository, creating b
 
 <h1> Table of Contents <h1>
 Prerequisites
-Repository Setup
+* Repository Setup
   
-Branch Management
+* Branch Management
 
-Feature Implementation
+* Feature Implementation
 
-Merging and Releases
+* Merging and Releases
 
 <h1> Prerequisites <h1>
 Git installed on your local machine.
@@ -21,17 +21,18 @@ Basic understanding of Git commands and branching.
 
 Repository Setup
 
-<h1> Clone the Repository: <h1>
+<h1> 1. Clone the Repository: <h1>
 git clone https://github.com/Ram495-ctrl/git_assignment_HeroVired.git
-<h1> Navigate to the Project Directory: <h1>
+<h1> 
+2. Navigate to the Project Directory: 
 cd git_assignment_HeroVired
 <h1> Branch Management <h1>
-<h1> Create a New Branch: <h1>
-git checkout -b dev
-<h1> Create an Application File: <h1>
-nano CalculatorPlus.py
-<h1> Track the New File: <h1>
-git add .
+<h1> 1. Create a New Branch: <h1>
+    git checkout -b dev
+<h1> 2. Create an Application File: <h1>
+    nano CalculatorPlus.py
+<h1> 3. Track the New File: <h1>
+    git add .
 <h1> Commit the New File: <h1>
 git commit -m "Initial commit of the Calc plus app on Dev"
 <h1> Push the Branch to Remote: <h1>
