@@ -77,7 +77,7 @@ git push origin dev
 
   <img width="1037" alt="image" src="https://github.com/user-attachments/assets/1821df32-1906-4d7f-a16c-b33a67ae4ad3">
 
-<h1> 2. Create a New Release: <h1>
+<h1> 2. Create a New Release:
 
 Release version 1.0 after merging dev to main.
 Create a new branch for additional features.
