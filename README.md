@@ -178,10 +178,21 @@ $ git stash
 
 <img width="435" alt="image" src="https://github.com/user-attachments/assets/f106be17-ad70-4a7c-9763-6d9ccd9b333e">
 
-<h1> Merge of Feature/Circle code to Dev has been approved by collaborator: <h1>
+<h1> Merge of Feature/Circle code to Dev has been approved by collaborator:
 
 
- 
+ <img width="1151" alt="image" src="https://github.com/user-attachments/assets/d0599c92-726d-4f7b-ba71-db76aede84e3">
+
+<h1> Merge of Feature/Rectangle code to Dev has been approved by collaborator:
+
+<img width="1117" alt="image" src="https://github.com/user-attachments/assets/6fed24c2-fecd-4c7b-98e4-047229a9fa8e">
+
+<h1> Raised and merged the final merge of Dev branch onto Main branch:
+
+<img width="1025" alt="image" src="https://github.com/user-attachments/assets/b48550ee-69f6-4b40-b853-ecdaafddd580">
+
+
+
 
 
 
