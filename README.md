@@ -70,13 +70,22 @@ git push origin dev
 <h1> 1.  Merge Feature Branch to dev: <h1>
 
 * Raise a pull request from feature/sqrt to dev.
+
+<img width="1062" alt="image" src="https://github.com/user-attachments/assets/92674683-a71a-4349-beb3-11d2d0b8e039">
+
 * Add a reviewer and merge post approval.
+
+  <img width="1037" alt="image" src="https://github.com/user-attachments/assets/1821df32-1906-4d7f-a16c-b33a67ae4ad3">
+
 <h1> 2. Create a New Release: <h1>
 
 Release version 1.0 after merging dev to main.
 Create a new branch for additional features.
 Implement and test new features.
 Merge and release version 2.0.
+
+<img width="801" alt="image" src="https://github.com/user-attachments/assets/f64c968a-83b9-436e-b3ff-b7511156ba1d">
+
 
 <h1> Solution for question 2: <h1>
 
