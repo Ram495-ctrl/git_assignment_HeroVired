@@ -4,6 +4,7 @@ This project demonstrates the process of setting up a Git repository, creating b
 
 <h1> Table of Contents <h1>
 Prerequisites
+  
 * Repository Setup
   
 * Branch Management
@@ -13,11 +14,11 @@ Prerequisites
 * Merging and Releases
 
 <h1> Prerequisites <h1>
-Git installed on your local machine.
+* Git installed on your local machine.
   
-A GitHub account.
+* A GitHub account.
 
-Basic understanding of Git commands and branching.
+* Basic understanding of Git commands and branching.
 
 Repository Setup
 
@@ -76,3 +77,116 @@ Release version 1.0 after merging dev to main.
 Create a new branch for additional features.
 Implement and test new features.
 Merge and release version 2.0.
+
+<h1> Solution for question 2: <h1>
+
+<h1> Initialize Git LFS in Your Repository <h1>
+git lfs install
+  
+<h1> Track the Large Files <h1>
+  
+started track the large file:
+
+git lfs track "*.bin"
+
+![image](https://github.com/user-attachments/assets/0a6283cb-7ead-47b6-bc4c-8f94afd1fe1b)
+
+
+
+<h1> Add, Commit, and Push Files <h1>
+
+git add .gitattributes
+
+git add 300MB_Ram.bin
+
+git commit -m "Add large binary file Ram with Git LFS"
+
+git push origin main
+
+![image](https://github.com/user-attachments/assets/fcf22f16-7930-4f63-aaca-a7cc28d41bb4)
+
+
+Clone the colleague’s repo in lfs folder:
+
+![image](https://github.com/user-attachments/assets/caa51b4e-9c1a-4890-b3c8-24c4a48d77e9)
+
+Pulled contents of his main branch from remote t local cloned repo that also had his binary files:
+ 
+![image](https://github.com/user-attachments/assets/8b0df414-1149-4fa5-afa0-6004c26a4378)
+
+Validated the size and integrity of the friends bin file on my repo and found it to be good:
+
+![image](https://github.com/user-attachments/assets/8b865190-e315-4fc9-a876-5fda8e50d483)
+
+
+
+<h1> Solution for question 3: <h1>
+
+<h1> Geometry Calculator <h1>
+This repository contains a Geometry Calculator application with features to calculate areas of various shapes. The project follows a branch-based workflow with different features developed in separate branches.
+
+<h1> Branches and Features
+1. geometry-calculator Branch
+
+*  Initial Setup: Created the branch geometry-calculator.
+*  File Added: calculate_area.py.
+*  Initial Commit:
+
+ <h1> Alien@Rahul MINGW64 /e/Devops/Hero vired assignment/Git hub assignment/git_assignment_HeroVired (main)
+   
+$ git checkout -b geometry-calculator
+
+$ nano calculate_area.py
+
+$ git add calculate_area.py
+
+$ git commit -m "Initial commit of Calculate Area app geometry-calculator branch"
+
+2. feature/circle-area Branch
+
+ * Switch to Branch:
+
+$ git switch feature/circle-area
+
+ * Update Code: Added functionality to calculate the area of a circle.
+
+ * Save Changes:
+   
+$ git stash
+
+3. feature/rectangle-area Branch
+
+ * Switch to Branch
+
+$ git switch feature/Rectangle-Area
+
+ * Update Code: Added functionality to calculate the area of a rectangle.
+
+ * Save Changes:
+   
+$ git stash
+
+ <h1> Switched to Feature Circle branch and retrieved the changes, added to tracker and committed:  <h1>
+
+ 
+<img width="431" alt="image" src="https://github.com/user-attachments/assets/59f49f0b-8cc7-4bad-afed-9a8edec38db6">
+
+
+
+<h1> Switched to Feature Reactnagle branch and retrieved the changes, added to tracker and committed <h1> 
+
+
+<img width="435" alt="image" src="https://github.com/user-attachments/assets/f106be17-ad70-4a7c-9763-6d9ccd9b333e">
+
+<h1> Merge of Feature/Circle code to Dev has been approved by collaborator: <h1>
+
+
+ 
+
+
+
+
+
+
+
+
